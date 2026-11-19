@@ -1,6 +1,3 @@
-b = [{"titulo": "Dune", "autor": "Herbert", "anio": "1965"}]
-
-
 def buscarLibors(biblioteca):
     busqueda = input("Introduce el nombre de un libro o un autor: ")
     libros = []
@@ -9,6 +6,3 @@ def buscarLibors(biblioteca):
             if busqueda.lower() in i.lower():
                 libros.append(libro)
     return libros
-
-
-print(buscarLibors(b))
