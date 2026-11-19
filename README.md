@@ -4,3 +4,4 @@ Programa de consola para gestionar una pequeña biblioteca de libros.
  python main.py
 ## Participantes
 * **Persona A (Etna):** Configuración inicial y estructura del proyecto.
+* **Persona C (Asier):** Búsqueda de libros por título o autor (`busqueda.py`).
