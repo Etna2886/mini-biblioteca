@@ -13,3 +13,10 @@ def anadir_libro(biblioteca):
     print("Libro añadido correctamente.")
 
 
+def listar_libros(biblioteca):
+    if len(biblioteca) == 0:
+        print("No hay libros en la biblioteca.")
+    else:
+        print("\nListado de libros:")
+        for i, libro in enumerate(biblioteca, start=1):
+            print(f"{i}. {libro['titulo']} - {libro['autor']} ({libro['anio']})")
